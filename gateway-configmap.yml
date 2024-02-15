@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gateway
+data:
+  application.properties: |
+    testKey=Gateway-ValueFromConfigMapV16
+    server.reactive.session.timeout=5
